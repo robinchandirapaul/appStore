@@ -1,0 +1,72 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 38px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 68px;
+  }
+}
+.input-search-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  height: 40px;
+  border: 1px solid #7b8794;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .input-search-container {
+    max-width: 480px;
+  }
+}
+.search-input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  flex-grow: 1;
+}
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+.tab-container {
+  display: flex;
+  padding: 0px;
+  margin-top: 32px;
+  align-items: flex-end;
+}
+.app-list-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  flex-wrap: wrap;
+}
